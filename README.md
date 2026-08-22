@@ -18,7 +18,6 @@
 ## 📌 Overview
 
 An end-to-end **NLP and Machine Learning** project that analyzes **2,296 real Flipkart customer reviews** to automatically classify sentiment as **Positive**, **Neutral**, or **Negative**.
-
 This project goes beyond standard sentiment classification by implementing:
 - ✅ A **dual-model approach** — ML + VADER lexicon comparison
 - ✅ **Sentiment-rating mismatch detection** — unique business insight
@@ -51,8 +50,6 @@ This project goes beyond standard sentiment classification by implementing:
 <img src="https://img.shields.io/badge/Seaborn-teal?style=flat-square"/>
 <img src="https://img.shields.io/badge/VADER-purple?style=flat-square"/>
 <img src="https://img.shields.io/badge/WordCloud-pink?style=flat-square"/>
-<img src="https://img.shields.io/badge/Google%20Colab-yellow?style=flat-square&logo=googlecolab"/>
-</p>
 
 ---
 
@@ -63,20 +60,54 @@ This project goes beyond standard sentiment classification by implementing:
 | Logistic Regression | 88% | 90% | ✅ Good |
 | Naive Bayes | 84% | 77% | ⚠️ Moderate |
 | **Random Forest** | **90%** | **90%** | 🏆 Best |
-
 > 🏆 **Random Forest** selected as the final model with `class_weight='balanced'` to handle class imbalance.
 
 ---
 
 ## 🔍 Key Insights
 
-| # | Insight |
-|---|---|
-| 🎯 | **90% accuracy** achieved using Random Forest |
-| 🤖 | **86.5% agreement** between ML model and VADER lexicon |
-| ⚠️ | **93 mismatched reviews** — text contradicted the star rating |
-| 🔴 | Top complaints — **camera quality, battery life, delivery** |
-| 📏 | Negative reviews are **significantly longer** than positive ones |
+<table>
+  <tr>
+    <td>🏆</td>
+    <td><b>Best Model</b></td>
+    <td>Random Forest achieved <b>90% accuracy</b> and <b>90% F1 Score</b> — highest among all three models</td>
+  </tr>
+  <tr>
+    <td>🤖</td>
+    <td><b>Dual Model Validation</b></td>
+    <td>ML model and VADER lexicon agreed <b>86.5% of the time</b> — confirming model reliability</td>
+  </tr>
+  <tr>
+    <td>⚠️</td>
+    <td><b>Mismatch Detection</b></td>
+    <td><b>93 reviews</b> detected where written sentiment contradicted the star rating — a unique business insight</td>
+  </tr>
+  <tr>
+    <td>🔴</td>
+    <td><b>Top Complaints</b></td>
+    <td>LDA Topic Modelling revealed customers complain most about <b>camera quality, battery life</b> and <b>delivery issues</b></td>
+  </tr>
+  <tr>
+    <td>📏</td>
+    <td><b>Review Behaviour</b></td>
+    <td>Negative reviews are <b>significantly longer</b> than positive ones — unhappy customers write more detailed feedback</td>
+  </tr>
+  <tr>
+    <td>📊</td>
+    <td><b>Class Imbalance</b></td>
+    <td>Dataset is <b>60% positive</b> — handled using <code>class_weight='balanced'</code> in all ML models</td>
+  </tr>
+</table>
 
 ---
 
+## 📁 Repository Structure
+
+    📁 Flipkart-Sentiment-Analysis
+    ├── 📁 data/
+    │    └── flipkart.xlsx
+    ├── 📁 outputs/
+    │    └── 8 visualisation graphs
+    ├── majorproject.ipynb
+    ├── requirements.txt
+    └── README.md
