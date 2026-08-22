@@ -24,7 +24,7 @@ An end-to-end **NLP and Machine Learning** project that analyzes **2,296 real Fl
 ---
 
 ## 🛠️ Tech Stack
-`Python` `Pandas` `NumPy` `NLTK` `Scikit-learn` `VADER` `Matplotlib` `Seaborn` `WordCloud` `Google Colab`
+`Python` `Pandas` `NumPy` `NLTK` `Scikit-learn` `VADER` `Matplotlib` `Seaborn` `WordCloud`
 
 ---
 
@@ -72,17 +72,6 @@ An end-to-end **NLP and Machine Learning** project that analyzes **2,296 real Fl
 ### LDA Topic Modelling
 ![LDA](outputs/graph8_lda.png)
 
----
-
-## 🔄 Project Workflow
-## 🔄 Project Workflow
-` ` `
-Data Loading → EDA → Text Preprocessing → Sentiment Labelling
-→ TF-IDF Vectorization → Model Training → Evaluation
-→ VADER Comparison → Mismatch Detection → LDA Topic Modelling
-→ Live Predictor
-` ` `
-
 
 ---
 
@@ -94,4 +83,4 @@ Data Loading → EDA → Text Preprocessing → Sentiment Labelling
 ---
 
 👤 **Author:** Aditi Singh  
-🎓 *Data Science Capstone Project · LaunchED Global Internship · May 2026*
+
