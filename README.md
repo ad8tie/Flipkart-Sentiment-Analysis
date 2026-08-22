@@ -66,38 +66,17 @@ This project goes beyond standard sentiment classification by implementing:
 
 ## 🔍 Key Insights
 
-<table>
-  <tr>
-    <td>🏆</td>
-    <td><b>Best Model</b></td>
-    <td>Random Forest achieved <b>90% accuracy</b> and <b>90% F1 Score</b> — highest among all three models</td>
-  </tr>
-  <tr>
-    <td>🤖</td>
-    <td><b>Dual Model Validation</b></td>
-    <td>ML model and VADER lexicon agreed <b>86.5% of the time</b> — confirming model reliability</td>
-  </tr>
-  <tr>
-    <td>⚠️</td>
-    <td><b>Mismatch Detection</b></td>
-    <td><b>93 reviews</b> detected where written sentiment contradicted the star rating — a unique business insight</td>
-  </tr>
-  <tr>
-    <td>🔴</td>
-    <td><b>Top Complaints</b></td>
-    <td>LDA Topic Modelling revealed customers complain most about <b>camera quality, battery life</b> and <b>delivery issues</b></td>
-  </tr>
-  <tr>
-    <td>📏</td>
-    <td><b>Review Behaviour</b></td>
-    <td>Negative reviews are <b>significantly longer</b> than positive ones — unhappy customers write more detailed feedback</td>
-  </tr>
-  <tr>
-    <td>📊</td>
-    <td><b>Class Imbalance</b></td>
-    <td>Dataset is <b>60% positive</b> — handled using <code>class_weight='balanced'</code> in all ML models</td>
-  </tr>
-</table>
+-  **Random Forest outperformed all models** with 90% accuracy and 90% F1 Score, making it the clear best model for this classification task.
+
+-  **VADER and ML agreed 86.5% of the time** — when two completely different approaches reach the same conclusion, it strongly validates the model's predictions.
+
+-  **93 reviews had mismatched sentiment** — customers who wrote positive text but rated 1-2 stars, or negative text but rated 4-5 stars. This reveals sarcasm, confusion, or genuine mixed experiences that a simple rating system misses.
+
+-  **Camera quality, battery life, and delivery are the top complaints** — discovered through LDA Topic Modelling on negative reviews, going beyond just knowing customers are unhappy to understanding exactly why.
+
+-  **Unhappy customers write more** — negative reviews are significantly longer than positive ones, suggesting dissatisfied customers feel the need to explain their experience in detail.
+
+-  **Class imbalance was a real challenge** — 60% of reviews were 5-star, meaning without balancing, the model would simply predict positive every time. This was handled using `class_weight='balanced'` across all models.
 
 ---
 
