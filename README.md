@@ -81,6 +81,5 @@ An end-to-end **NLP and Machine Learning** project that analyzes **2,296 real Fl
 3. Dataset loads automatically — no uploads needed
 
 ---
-
-👤 **Author:** Aditi Singh  
+ 
 
