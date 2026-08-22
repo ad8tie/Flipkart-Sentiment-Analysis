@@ -32,4 +32,4 @@ Open `majorproject.ipynb` in Google Colab and click **Runtime → Run All**.
 Dataset loads automatically. No file uploads needed.
 
 ---
-🎓 Data Science Capstone Project · LaunchED Global Internship · May 2026
+👤 Author: Aditi Singh
