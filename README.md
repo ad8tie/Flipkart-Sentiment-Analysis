@@ -68,13 +68,9 @@ This project goes beyond standard sentiment classification by implementing:
 
 -  **Random Forest outperformed all models** with 90% accuracy and 90% F1 Score, making it the clear best model for this classification task.
 -  **VADER and ML agreed 86.5% of the time** — when two completely different approaches reach the same conclusion, it strongly validates the model's predictions.
-
 -  **93 reviews had mismatched sentiment** — customers who wrote positive text but rated 1-2 stars, or negative text but rated 4-5 stars. This reveals sarcasm, confusion, or genuine mixed experiences that a simple rating system misses.
-
 -  **Camera quality, battery life, and delivery are the top complaints** — discovered through LDA Topic Modelling on negative reviews, going beyond just knowing customers are unhappy to understanding exactly why.
-
 -  **Unhappy customers write more** — negative reviews are significantly longer than positive ones, suggesting dissatisfied customers feel the need to explain their experience in detail.
-
 -  **Class imbalance was a real challenge** — 60% of reviews were 5-star, meaning without balancing, the model would simply predict positive every time. This was handled using `class_weight='balanced'` across all models.
 
 ---
@@ -91,11 +87,15 @@ This project goes beyond standard sentiment classification by implementing:
     └── README.md
 
 ---
-## 🔄 Project Workflow
-Data Loading → EDA → Text Preprocessing → Sentiment Labelling
-↓
-TF-IDF Vectorization → Model Training → Evaluation
-↓
-VADER Comparison → Mismatch Detection → LDA Topic Modelling
-↓
-Live Sentiment Predictor
+## 🚀 How to Run
+
+1. Open `majorproject.ipynb` in Google Colab
+2. Click **Runtime → Run All**
+3. Dataset loads automatically — no uploads needed
+
+---
+
+
+<p align="center">
+  👤 <b>Author: Aditi Singh</b> <br/>
+</p>
