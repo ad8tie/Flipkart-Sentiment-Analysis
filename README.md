@@ -67,7 +67,6 @@ This project goes beyond standard sentiment classification by implementing:
 ## 🔍 Key Insights
 
 -  **Random Forest outperformed all models** with 90% accuracy and 90% F1 Score, making it the clear best model for this classification task.
-
 -  **VADER and ML agreed 86.5% of the time** — when two completely different approaches reach the same conclusion, it strongly validates the model's predictions.
 
 -  **93 reviews had mismatched sentiment** — customers who wrote positive text but rated 1-2 stars, or negative text but rated 4-5 stars. This reveals sarcasm, confusion, or genuine mixed experiences that a simple rating system misses.
