@@ -7,6 +7,8 @@
   <img src="https://img.shields.io/badge/VADER-Sentiment-purple?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Platform-Google%20Colab-yellow?style=for-the-badge&logo=googlecolab"/>
+  <img src="https://img.shields.io/badge/WordCloud-pink?style=flat-square"/>
+</p>
 </p>
 
 <p align="center">
