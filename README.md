@@ -1,5 +1,5 @@
 # 🛒 Customer Sentiment Analysis on Flipkart Product Reviews
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ad8tie/Flipkart-Sentiment-Analysis/blob/main/majorproject.ipynb)
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Scikit--learn-ML-orange?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
