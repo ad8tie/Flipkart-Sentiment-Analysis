@@ -90,3 +90,13 @@ This project goes beyond standard sentiment classification by implementing:
     ├── majorproject.ipynb
     ├── requirements.txt
     └── README.md
+
+---
+## 🔄 Project Workflow
+Data Loading → EDA → Text Preprocessing → Sentiment Labelling
+↓
+TF-IDF Vectorization → Model Training → Evaluation
+↓
+VADER Comparison → Mismatch Detection → LDA Topic Modelling
+↓
+Live Sentiment Predictor
