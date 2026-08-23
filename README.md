@@ -7,8 +7,6 @@
   <img src="https://img.shields.io/badge/VADER-Sentiment-purple?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Platform-Google%20Colab-yellow?style=for-the-badge&logo=googlecolab"/>
-  <img src="https://img.shields.io/badge/WordCloud-pink?style=flat-square"/>
-</p>
 </p>
 
 <p align="center">
@@ -52,6 +50,7 @@ This project goes beyond standard sentiment classification by implementing:
 <img src="https://img.shields.io/badge/Seaborn-teal?style=flat-square"/>
 <img src="https://img.shields.io/badge/VADER-purple?style=flat-square"/>
 <img src="https://img.shields.io/badge/WordCloud-pink?style=flat-square"/>
+</p>
 
 ---
 
@@ -62,6 +61,7 @@ This project goes beyond standard sentiment classification by implementing:
 | Logistic Regression | 88% | 90% | ✅ Good |
 | Naive Bayes | 84% | 77% | ⚠️ Moderate |
 | **Random Forest** | **90%** | **90%** | 🏆 Best |
+
 > 🏆 **Random Forest** selected as the final model with `class_weight='balanced'` to handle class imbalance.
 
 ---
@@ -77,6 +77,26 @@ This project goes beyond standard sentiment classification by implementing:
 
 ---
 
+## 📈 Visualisations
+
+| Rating Distribution | Review Word Count |
+|---|---|
+| ![Rating Distribution](outputs/graph1_ratings.png) | ![Word Count](outputs/graph2_wordcount.png) |
+
+| Word Cloud | Confusion Matrix |
+|---|---|
+| ![Word Cloud](outputs/graph3_wordcloud.png) | ![Confusion Matrix](outputs/graph4_confusionmatrix.png) |
+
+| Model Comparison | VADER vs ML |
+|---|---|
+| ![Model Comparison](outputs/graph5_models.png) | ![VADER](outputs/graph6_vader.png) |
+
+| Mismatch Analysis | LDA Topic Modelling |
+|---|---|
+| ![Mismatch](outputs/graph7_mismatch.png) | ![LDA](outputs/graph8_lda.png) |
+
+---
+
 ## 📁 Repository Structure
 
     📁 Flipkart-Sentiment-Analysis
@@ -89,6 +109,7 @@ This project goes beyond standard sentiment classification by implementing:
     └── README.md
 
 ---
+
 ## 🚀 How to Run
 
 1. Open `majorproject.ipynb` in Google Colab
@@ -96,7 +117,6 @@ This project goes beyond standard sentiment classification by implementing:
 3. Dataset loads automatically — no uploads needed
 
 ---
-
 
 <p align="center">
   👤 <b>Author: Aditi Singh</b> <br/>
